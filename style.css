@@ -1,0 +1,76 @@
+.navbar {
+  margin-top: 10px;
+}
+.navbar img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.navbar .fa-regular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .fa-solid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobileShow {
+  display: none;
+}
+
+.footer-clean {
+  padding: 50px 0;
+  background: #282828;
+  color: #4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+.footer-clean ul {
+  padding: 0;
+  list-style: none;
+  line-height: 1.6;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #FAFAFA;
+}
+
+.footer-clean ul a {
+  text-decoration: none;
+  opacity: 0.8;
+  color: #919191;
+}
+
+.footer-clean ul a:hover {
+  opacity: 1;
+}
+
+.footer-clean .item.social {
+  text-align: right;
+  color: #FAFAFA;
+}
+
+/* Smartphone Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 450px) {
+  .mobileShow {
+    display: block;
+    width: 40%;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin: 0 0 0 -20%;
+  }
+  .footer-clean {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
