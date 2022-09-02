@@ -266,6 +266,9 @@ li a:hover {
   overflow: hidden;
   position: relative;
 }
+.footer-secondary .language div {
+  box-sizing: border-box;
+}
 .footer-secondary .language .fa-solid fa-caret-down {
   fill: currentColor;
   margin-top: -2px;
@@ -286,11 +289,223 @@ li a:hover {
   opacity: 90%;
 }
 
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 15px 30px;
+}
+main div {
+  display: block;
+}
+main .container {
+  position: relative;
+  max-width: 100%;
+  border-radius: 0;
+}
+main .container body {
+  box-sizing: border-box;
+}
+main .container h1 {
+  color: #282828;
+  float: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0.5em 0;
+}
+main .container h2 {
+  color: #282828;
+  float: left;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0.67em 0;
+}
+main .saved ul {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+}
+main .saved li {
+  grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 2fr);
+  padding-bottom: 0;
+  border-bottom-color: #dadada;
+  position: relative;
+  grid-column-gap: 14px;
+  grid-row-gap: 0;
+  grid-template-rows: 80px;
+  padding: 0 14px;
+  align-items: center;
+  border-bottom: 1px solid #f1f2f3;
+  display: grid;
+}
+main .saved .product-pic {
+  grid-column: 1/span 1;
+  padding-right: 0;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 46px;
+  min-width: 0;
+  padding-left: 56px;
+  position: relative;
+}
+main .saved .product-pic img {
+  border-radius: 3px;
+  height: 46px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 46px;
+  border-style: none;
+  image-rendering: -webkit-optimize-contrast;
+}
+main .saved .product-pic a {
+  font-size: 14px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #282828;
+  font-weight: 600;
+}
+main .saved .product-pic a:hover {
+  filter: brightness(200%);
+}
+main .my-cart ul {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+  -webkit-padding-start: 40px;
+          padding-inline-start: 40px;
+}
+main .my-cart li {
+  grid-template-columns: minmax(0, 4fr) minmax(0, 3fr) minmax(0, 3fr) minmax(0, 2fr);
+  padding-bottom: 0;
+  border-bottom-color: #dadada;
+  position: relative;
+  grid-column-gap: 14px;
+  grid-row-gap: 0;
+  grid-template-rows: 150px;
+  padding: 0 14px;
+  align-items: center;
+  border-bottom: 1px solid #f1f2f3;
+  display: grid;
+}
+main .my-cart .product-pic {
+  grid-column: 1/span 1;
+  padding-right: 0;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 46px;
+  min-width: 0;
+  padding-left: 56px;
+  position: relative;
+  justify-content: center;
+}
+main .my-cart .product-pic img {
+  border-radius: 3px;
+  height: auto;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 86px;
+  border-style: none;
+  image-rendering: -webkit-optimize-contrast;
+}
+main .my-cart .product-pic a {
+  font-size: 14px;
+  width: auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #282828;
+  font-weight: 600;
+}
+main .my-cart .product-pic a:hover {
+  filter: brightness(200%);
+}
+main .product-action {
+  justify-self: end;
+  font-size: 1.1rem;
+}
+main .product-action a {
+  text-decoration: none;
+  margin-right: 1rem;
+}
+main .product-action a:hover {
+  color: black;
+}
+main .product-action button {
+  border-radius: 15px;
+  border-color: #919191;
+  border-style: solid;
+  color: #919191;
+  background-color: white;
+  border-width: 1px;
+}
+main .product-action button:hover, main .product-action button:focus {
+  opacity: 60%;
+}
+main .product-action button:active {
+  transform: translateY(0.05em);
+}
+
+#continue-shop {
+  color: #43b1e6;
+  text-decoration: none;
+}
+
+#description {
+  text-align: center;
+  font-weight: 200;
+}
+
+#cart-actions {
+  margin-right: 0px;
+}
+
+#credits {
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
 .mobileShow {
   display: none;
 }
 
-/* Smartphone Portrait and Landscape */
+/* Media Queries */
 @media only screen and (min-device-width: 320px) and (max-device-width: 790px) {
   .mobileShow {
     display: block;
@@ -305,5 +520,70 @@ li a:hover {
   }
   .footer-secondary {
     display: none;
+  }
+  h5 {
+    display: none;
+  }
+  .container {
+    background: #fff;
+    border-radius: 0;
+    position: relative;
+    max-width: 100%;
+    padding: 30px 0;
+  }
+  .saved {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+  }
+  #screen {
+    border-bottom-color: #dadada;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 3fr) minmax(0, 2fr);
+    padding-bottom: 15px;
+    position: relative;
+    align-items: center;
+    border-bottom: 1px solid #f1f2f3;
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 10px;
+    grid-template-rows: 70px;
+    padding: 0 8px;
+  }
+  #screen-ul {
+    float: left;
+    margin-top: 15px;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mobileShow {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 20%;
+    margin: 0 0 0 -20%;
+    flex-shrink: 0;
+    padding: 13px;
+    background-color: #ffffff;
+    justify-content: space-between;
+    opacity: 90%;
+  }
+  .mobileShow button {
+    color: #ffffff;
+    background-color: #43b1e6;
+    border-radius: 15px;
+    border-width: 0px;
+    font-size: 15px;
+  }
+  .mobileShow p {
+    font-weight: 600;
+  }
+  .mobileShow button:active {
+    transform: translateY(0.1em);
   }
 }/*# sourceMappingURL=style.css.map */
